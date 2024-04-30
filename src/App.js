@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import MyApp from './components/MyApp';
+import RandomColor from './components/RandomColor';
 
 function App() {
   return (
    <>
-      <MyApp/>
-
+      
+     <RandomColor/>
    </>
   );
 }

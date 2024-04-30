@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import Color from './Color'
 import '../components/index.css'
 
-export class MyApp extends React.Component{
+export class RandomColor extends React.Component{
   constructor(){
     super()
     this.state = {
-      colorNum : 2,
+      colorNum : 200,
       colors : []
     };
 
@@ -42,4 +42,4 @@ export class MyApp extends React.Component{
   }
 }
 
-export default MyApp
+export default RandomColor
