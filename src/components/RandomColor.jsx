@@ -6,7 +6,7 @@ export class RandomColor extends React.Component{
   constructor(){
     super()
     this.state = {
-      colorNum : 200,
+      colorNum : 150,
       colors : []
     };
 
